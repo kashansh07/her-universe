@@ -91,6 +91,10 @@ function MyLove() {
                        className="text-5xl font-bold mb-16">
                         Memories 📷
                        </motion.h2>
+                       <p className="text-gray-300 text-xl leading-loose">
+                        Clickable 👆🏻
+                        <br /><br />
+                       </p>
 
                        <div className="grid md:grid-cols-3 gap-10">
 
@@ -109,7 +113,7 @@ function MyLove() {
                                 <img
                                    src={memory.image}
                                    alt={memory.title}
-                                   className="w-full h-80 object-cover"/>
+                                   className="w-full h-100 object-cover"/>
 
                                 <div className="p-6">
 

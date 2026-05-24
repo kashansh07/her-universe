@@ -31,7 +31,7 @@ function LetterPage() {
                   <img
                      src={memory.image}
                      alt={memory.title}
-                     className="w-full h-[500px] object-cover rounded-3xl mb-12"/>
+                     className="w-fill h-[1000px] object-cover rounded-3xl mb-12"/>
 
                     <h1 className="text-5xl md:text-7xl elegant mb-10">
                         {memory.title}
@@ -40,7 +40,7 @@ function LetterPage() {
                     <TypeAnimation
                        sequence={[memory.letter]}
                        wrapper="p"
-                       speed={70}
+                       speed={15}
                        cursor={true}
                        className="handwritten italic text-gray-300 leading-loose text-[42px] md:text-[64px]"/>
 
