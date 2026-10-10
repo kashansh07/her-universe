@@ -27,7 +27,7 @@ function Landing(){
   const handleStepTwo = () => {
     if (nickname.toLocaleLowerCase() === correctNickname.toLocaleLowerCase()) {
       setError("");
-      navigate("/myLove");
+      navigate("/disclaimer");Console.log("");
     }
     else { 
       setError("That doesn't sound familiar...");
