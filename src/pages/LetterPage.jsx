@@ -133,7 +133,7 @@ function LetterPage() {
           <TypeAnimation
             sequence={[letter.content]}
             wrapper="p"
-            speed={85}
+            speed={100}
             cursor={true}
             className="
               handwritten

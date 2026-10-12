@@ -5,16 +5,18 @@ import homeMusic from "../assets/music/home.mp3";
 import nxtFloorMusic from "../assets/music/birthday.mp3";
 import letter1Music from "../assets/music/letter1.mp3";
 import letter2Music from "../assets/music/letter2.mp3";
-//import letter3Music from "../assets/music/letter3.mp3";
+import letter3Music from "../assets/music/letter3.mp3";
 import letter4Music from "../assets/music/letter4.mp3";
+import letter5Music from "../assets/music/letter5.mp3";
 
 const musicMap = {
   "/home": homeMusic,
   "/nxt-floor": nxtFloorMusic,
   "/letter/1": letter1Music,
   "/letter/2": letter2Music,
-//  "/letter/3": letter3Music,
+  "/letter/3": letter3Music,
   "/letter/4": letter4Music,
+  "/letter/5": letter5Music,
 };
 
 function MusicButton() {

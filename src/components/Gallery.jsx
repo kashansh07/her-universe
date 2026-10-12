@@ -1,57 +1,89 @@
 import { motion } from "framer-motion";
 import { useEffect, useRef } from "react";
 
-import img1 from "../assets/images/img1.jpg";
-import img2 from "../assets/images/img2.jpg";
-import img3 from "../assets/images/img3.jpg";
+import img13 from "../assets/images/img13.jpg";
+import img14 from "../assets/images/img14.jpg";
+import img15 from "../assets/images/img15.jpg";
 import img11 from "../assets/images/img11.jpg";
 import img12 from "../assets/images/img12.jpg";
+import img16 from "../assets/images/img16.jpg";
 //import img6 from "../assets/images/img6.jpg";
 
 // Add your videos here if you want to import them instead
 import video1 from "../assets/videos/video1.mp4";
+import video2 from "../assets/videos/video2.mp4";
+import video3 from "../assets/videos/video3.mp4";
+import video4 from "../assets/videos/video4.mp4";
 
 const memories = [
   {
     type: "photo",
-    src: img1,
-    title: "The first little memory",
+    src: img13,
+    title: "The first little memory, WE4",
     text: "Some moments quietly become permanent.",
   },
 
   {
     type: "photo",
-    src: img2,
-    title: "A day worth remembering",
-    text: "The kind of day I'd happily experience again.",
+    src: img14,
+    title: "A VC can be more than a call",
+    text: "The kind of call I'd happily experience again.",
   },
 
   {
     type: "video",
     src: video1,
+    title: "Gift unwrapping",
+    text: "I'm gonna keep this forever.",
+  },
+
+  {
+    type: "photo",
+    src: img15,
+    title: "That smile",
+    text: "Probably one of my favourite things in this universe.",
+  },
+
+  {
+    type: "video",
+    src: video2,
     title: "A little moment",
     text: "Some memories are better when they move.",
   },
 
   {
     type: "photo",
-    src: img3,
-    title: "That smile",
-    text: "Probably one of my favourite things in this universe.",
-  },
-
-  {
-    type: "photo",
     src: img11,
-    title: "The first little memory",
-    text: "Some moments quietly become permanent.",
+    title: "Trio-Trio",
+    text: "Hum teen, sabki bjae been",
   },
 
   {
     type: "photo",
     src: img12,
     title: "A day worth remembering",
-    text: "The kind of day I'd happily experience again.",
+    text: "Fir se machaenge😁😁",
+  },
+
+  {
+    type: "video",
+    src: video3,
+    title: "Snappy little moment",
+    text: "Ye sab store ho rha for better future moment, jab showcase karenge.",
+  },
+
+  {
+    type: "photo",
+    src: img16,
+    title: "Our first Memory",
+    text: "Yahi se shuru hua tha n.",
+  },
+
+  {
+    type: "video",
+    src: video4,
+    title: "Snap-2",
+    text: "Ice-Cream dates... Meena Bazaar if your remember.",
   },
 ];
 
