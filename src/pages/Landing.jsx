@@ -10,8 +10,8 @@ function Landing(){
   const [error, setError] = useState("");
   const navigate = useNavigate();
 
-  const correctName = "ansh";
-  const correctNickname = "ansh";
+  const correctName = "Aastha";
+  const correctNickname = "Rossie";
 
   const handleStepOne = () => {
     if (name.toLowerCase() === correctName.toLocaleLowerCase()) {

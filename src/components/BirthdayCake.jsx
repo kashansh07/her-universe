@@ -84,7 +84,7 @@ function BirthdayCake() {
                       scale: [1, 1.15, 0.95],
                     }}
                     transition={{
-                      duration: 0.5,
+                      duration: 1 ,
                       repeat: Infinity,
                     }}
                     className="
